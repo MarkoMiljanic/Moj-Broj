@@ -1,0 +1,63 @@
+01 - stranci u BiH
+02 - stranci u Crnoj Gori
+03 - stranci u Hrvatskoj
+04 - stranci u Makedoniji
+05 - stranci u Sloveniji
+07 - stranci u Srbiji (bez pokrajina)
+08 - stranci u Vojvodini
+09 - stranci na Kosovu
+10 - Banja Luka 
+11 - Bihac 
+12 - Doboj 
+13 - Goražde 
+14 - Livno 
+15 - Mostar 
+16 - Prijedor 
+17 - Sarajevo 
+18 - Tuzla 
+19 - Zenica
+21 - Podgorica 
+26 - Nikšic 
+29 - Pljevlja
+30 - Osijek, Slavonija region 
+31 - Bjelovar, Virovitica, Koprivnica, Pakrac, Podravina region 
+32 - Varaždin, Medimurje region 
+33 - Zagreb 
+34 - Karlovac 
+35 - Gospic, Lika region 
+36 - Rijeka, Pula, Istra and Primorje regioni 
+37 - Sisak, Banovina region 
+38 - Split, Zadar, Dubrovnik, Dalmacija region 
+39 - mešano
+41 - Bitola 
+42 - Kumanovo 
+43 - Ohrid 
+44 - Prilep 
+45 - Skopje 
+46 - Strumica 
+47 - Tetovo 
+48 - Veles 
+49 - Štip
+71 - Beograd region
+72 - Šumadija i Pomoravlje regioni
+73 - Niš region
+74 - Južna Morava region
+75 - Zajecar region
+76 - Podunavlje region
+77 - Podrinje i Kolubara regioni 
+78 - Kraljevo region
+79 - Užice region
+80 - Novi Sad region 
+81 - Sombor region
+82 - Subotica region
+85 - Zrenjanin region
+86 - Pancevo region
+87 - Kikinda region
+88 - Ruma region
+89 - Sremska Mitrovica region
+91 - Priština region 
+92 - Kosovska Mitrovica region 
+93 - Pec region
+94 - Ðakovica region
+95 - Prizren region
+96 - Kosovsko Pomoravski okrug

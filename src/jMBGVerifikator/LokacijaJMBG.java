@@ -1,9 +1,15 @@
 package jMBGVerifikator;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+
+import javax.swing.JFileChooser;
 
 public class LokacijaJMBG {
 	
@@ -74,14 +80,19 @@ public class LokacijaJMBG {
 
 	public void setRegion (int brojRegiona){
 		try {
-			String filename = "C:/Documents and Settings/Marko/workspace/Moj Broj/Regioni2.txt";
+
+			String filename = "Resources/Regioni.txt";
 			BufferedReader br = new BufferedReader(new FileReader(filename));
 			boolean kraj = false;
 			while (!kraj){
 				String a = br.readLine();
+				if (a == null){
+					kraj = true;
+				}
 				if (Integer.parseInt(a.substring(0, 2)) == brojRegiona){
 					region = a.substring((a.lastIndexOf('-')+2));
 					br.close();
+					kraj = true;
 					break;
 				}else{
 					region = "Proverite da li je ispravno unet JMBG";
@@ -89,7 +100,7 @@ public class LokacijaJMBG {
 			}	
 		} catch (FileNotFoundException e) {
 			region = "Nepoznato.";
-//			e.printStackTrace();
+			e.printStackTrace();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

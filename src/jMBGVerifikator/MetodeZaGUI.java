@@ -72,9 +72,9 @@ public class MetodeZaGUI {
 	public void postaviPol (){
 		int verifikator = brojevi[9]*100 + brojevi[10]*10 + brojevi[11];
 		if (verifikator >=000 && verifikator <=499) {
-			p.setPol("Muski");
+			p.setPol("Muški");
 		}else{
-			p.setPol("Zenski");
+			p.setPol("Ženski");
 		}
 	}
 	
